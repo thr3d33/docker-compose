@@ -1,0 +1,9 @@
+Crop_id,variety,crop,Crop_type,Seed_variety,Cann-variety,Sow_spring,Sow_summer,sow_autumn,sow_winter,Sun_requirements,germination,harvest_days
+Cann-sop,Sour Poison Feminised,Cannabis,Herb,Feminised,ppd,1,1,0,0,Sun,14,85
+Cann-dup,Durban Poison Feminised,Cannabis,Herb,Feminised,ppd,1,1,0,0,Sun,14,65
+Cann-sta,Sweet Tooth Auto Feminised,Cannabis,Herb,Feminised,auto,1,1,1,0,auto,14,85
+Cann-boc,Badazz OG Cheese Feminised,Cannabis,Herb,Feminised,ppd,1,1,0,0,Sun,14,65
+Cann-dpr,Durban Poison Regular,Cannabis,Herb,Regular,ppd,1,1,0,0,Sun,14,60
+Cann-sbg,Strawberry banana grape,Cannabis,Herb,Regular,ppd,1,1,0,0,Sun,14,65
+Cann-crj,Critical Jack Auto,Cannabis,Herb,Regular,auto,1,1,1,0,auto,14,80
+Cann-ame,Amenesia Auto,Cannabis,Herb,Regular,auto,1,1,1,0,auto,14,85

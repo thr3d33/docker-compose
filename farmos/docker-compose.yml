@@ -1,0 +1,25 @@
+services:
+  db:
+    image: postgres:12
+    volumes:
+      - './db:/var/lib/postgresql/data'
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: farm
+      POSTGRES_PASSWORD: farm
+      POSTGRES_DB: farm
+    restart: always
+
+  www:
+    depends_on:
+      - db
+    image: farmos/farmos:latest
+    volumes:
+      - './www:/opt/drupal'
+    ports:
+      - '80:80'
+    environment:
+      XDEBUG_MODE: debug
+      XDEBUG_CONFIG: discover_client_host=yes
+    restart: always

@@ -1,0 +1,60 @@
+id,Variety,Crop,Type,sow_spring,sow_summer,sow_autumn,sow_winter,pos_sun,pos_semi,pos_shade,space_cm1,space_cm2,Germination,Days to harvest
+Kal-chm,Chou Moullier,Kale,Vegetable,1,1,1,0,1,0,0,40,40,14,120
+Kale-vab,Vates Blue,Kale,Vegetable,1,1,1,0,1,0,0,40,40,20,60
+Spin-mov,Monstrous Viroflay,Spinach,Vegetable,1,1,1,1,1,0,0,7,30,14,65
+Spin-bfg,BeetFordhook Giant,Spinach,Vegetable,1,1,1,1,1,0,0,7,30,14,65
+Spin-scm,Swiss Chard Mixed,Spinach,Vegetable,1,1,1,1,1,0,0,7,30,14,65
+Spin-mfb,Mustard - Florida Broadleaf,Spinach,Vegetable,1,1,1,0,1,0,0,15,35,10,65
+Spin-bsd,Baby Spinach - Dash,Spinach,Vegetable,1,1,1,1,1,0,0,10,10,14,45
+Spin-bas,Baby Spinach,Spinach,Vegetable,1,1,1,1,1,0,0,7,30,14,40
+Lett-sal,Saladin,Lettuce ,Vegetable,1,1,1,1,1,0,0,30,30,14,90
+Lett-but,Butterhead,Lettuce ,Vegetable,1,1,1,1,1,0,0,30,30,14,90
+Lett-blm,Baby Leaf Mix,Lettuce ,Vegetable,1,1,1,1,1,0,0,10,10,14,45
+Lett-lor,Lollo Rosa,Lettuce ,Vegetable,1,1,1,1,1,0,0,30,30,14,90
+Swch-brl,Bright Lights,Swiss Chard,Vegetable,1,1,1,1,1,1,0,22,60,14,60
+Beet-bub,Bulls Blood,Beetroot,Vegetable,1,1,1,1,1,0,0,10,20,14,65
+Beet-ddr,Detroit Dark Red,Beetroot,Vegetable,1,1,1,1,1,0,0,10,30,10,110
+Radi-ee2,Garden Easter Egg II,Radish,Vegetable,1,1,1,1,1,0,0,5,5,14,35
+Onio-reo,Red Creole,Onion,Vegetable,0,0,1,0,1,0,0,8,20,12,220
+Onio-hoj,Hojem,Onion,Vegetable,1,1,1,1,1,0,0,10,40,14,240
+Onio-etg,Early Texas Grano,Onion,Vegetable,1,1,1,1,1,0,0,5,20,14,240
+Spon-sls,Slender Star,Spring Onion,Vegetable,0,0,1,1,1,0,0,4,20,12,90
+Brsp-loi,Long Island,Brussel Sprouts,Vegetable,1,1,1,0,1,0,0,25,75,14,90
+Caul-wal,Wallaby,Cauliflower,Vegetable,1,1,1,1,1,1,0,45,70,10,85
+Broc-gsc,Green Sprouting Calabrese,Broccoli,Vegetable,1,1,0,0,1,0,0,25,45,14,120
+Gems-pbr,Smarag 15 PBR,Gem Squash,Vegetable,1,1,1,0,1,0,0,100,100,14,70
+Arti-grg,Green Globe,Artichoke,Vegetable,1,1,0,0,1,0,0,90,90,21,150
+Toma-hs9,Hybrid Star 9009,Tomato,Vegetable,1,1,0,0,1,0,0,40,150,14,90
+Toma-mom,Moneymaker,Tomato,Vegetable,1,1,0,0,1,0,0,40,150,14,90
+Toma-rcs,Red Cherry Sweetie,Tomato,Vegetable,1,1,0,0,1,0,0,30,150,14,90
+Toma-culb,Culinary Blend,Tomato,Vegetable,1,1,0,0,1,0,0,50,50,14,100
+Bube-s54,Star 2054,Bush Bean,Vegetable,1,1,0,0,1,0,0,7,50,10,60
+Pepp-lca,Hot Pepper - Longslim Cayenne,Peppers,Vegetable,1,1,0,0,1,0,0,20,150,18,80
+Pepp-swp,Sweet Pepper,Peppers,Vegetable,1,1,0,0,1,0,0,45,80,14,80
+Carr-nan,Nantes,Carrot,Vegetable,1,1,1,1,1,0,0,5,30,14,130
+Carr-idr,Ideal Red,Carrot,Vegetable,1,1,1,1,1,0,0,5,15,14,110
+Carr-col,Colour Mix,Carrot,Vegetable,1,1,1,1,1,0,0,4,30,14,110
+Rhub-vic,Victoria,Rhubarb,Vegetable,1,1,1,0,1,0,0,50,50,14,240
+Cabb-brp,Baby Red Primero,Cabbage,Vegetable,1,1,1,0,1,0,0,25,25,14,65
+Cabb-chm,Chinese Michili,Cabbage,Vegetable,1,1,1,0,1,0,0,40,60,14,90
+Cabb-cas,Cape Spitz (Sugar-loaf),Cabbage,Vegetable,1,1,1,0,1,0,0,40,60,14,120
+Cabb-drh,Drumhead,Cabbage,Vegetable,1,1,1,0,1,0,0,40,60,14,120
+Cabb-goe,Glory of Enkhuizen,Cabbage,Vegetable,1,1,1,0,1,0,0,40,60,14,120
+Aspa-maw,Mary Washington,Asparagus,Vegetable,1,1,1,0,1,0,0,45,90,21,730
+Basi-peg,Pesto Genovese,Basil,Herb,1,1,0,0,1,1,0,40,40,14,120
+Basi-lem,Lemon,Basil,Herb,1,1,0,0,1,1,0,30,30,14,120
+Basi-swe,Sweet,Basil,Herb,1,1,0,0,1,1,0,30,30,14,120
+Basi-dop,Dark Opal,Basil,Herb,1,1,0,0,1,1,0,15,15,21,120
+Basi-pln,Plain,Basil,Herb,1,1,1,1,1,0,0,30,30,14,50
+Corr-aml,American Long,Corriander,Herb,1,1,1,1,1,0,0,30,30,21,40
+Corr-pln,Plain,Corriander,Herb,1,1,1,1,1,0,0,20,20,14,35
+Dill-pln,Plain,Dill,Herb,1,1,0,0,1,0,0,25,25,21,120
+Lmbl-pln,Plain,Lemon Balm,Herb,1,1,0,0,1,0,0,30,30,21,120
+Pars-pln,Plain,Parsley,Herb,1,1,1,1,1,0,0,10,10,28,80
+Pars-crm,Curled Moss,Parsley,Herb,1,1,1,1,1,0,0,10,10,28,80
+Pars-pln,Plain,Sweet Rocket,Herb,1,1,1,1,1,0,0,25,25,14,50
+Fenn-pln,Plain,Fennel,Herb,1,1,1,0,1,1,0,30,30,12,80
+Orge-pln,Plain,Orgenum,Herb,1,1,1,1,1,0,0,30,30,21,90
+Cele-pln,Apium Graveolens,Celery,Herb,1,1,1,0,1,0,0,15,15,14,90
+Cres-pln,Garden Cress,Cress,Herb,1,1,1,1,1,1,0,1,1,3,14
+Thym-thv,Thymus vulgris,Thyme,Herb,1,1,0,0,1,0,0,45,45,21,180
