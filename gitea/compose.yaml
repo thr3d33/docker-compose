@@ -11,11 +11,11 @@ services:
     env_file: .env  
     volumes:
       - $DATA_DIR:/data
-      - /etc/timezone:/etc/timezone:ro
-      - /etc/localtime:/etc/localtime:ro
+      - $TIMEZONE:/etc/timezone:ro
+      - $LOCALTIME:/etc/localtime:ro
     ports:
-      - "3000:3000"
-      - "222:22"
+      - $ADMIN_PORT:3000
+      - $SSH_PORT:22
 networks:
   gitea:
     external: false
