@@ -5,7 +5,7 @@ services:
     environment:
       - USER_UID=$USER_UID
       - USER_GID=$USER_GID
-    restart: always
+    restart: unless-stopped
     networks:
       - gitea
     env_file: .env  

@@ -10,7 +10,7 @@ services:
       - GITEA_NAME=$GITEA_NAME
       - GITEA_USER=$GITEA_USER
       - GITEA_PASSWD=$GITEA_PASSWD
-    restart: always
+    restart: unless-stopped
     networks:
       - gitea
     env_file: .env  
@@ -28,8 +28,8 @@ networks:
     external: false
 
   postgres-db:
-    image: docker.io/library/postgres:14
-    restart: always
+    image: postgres:14
+    restart: unless-stopped
     environment:
       - POSTGRES_USER=$POSTGRES_USER
       - POSTGRES_PASSWORD=$POSTGRES_PASSWORD

@@ -1,0 +1,80 @@
+## Gitea Docker
+
+https://docs.gitea.com/next/installation/install-with-docker
+
+### Basic
+
+```yaml
+
+services:
+  gitea-server:
+    image: gitea/gitea:latest
+    container_name: gitea
+    environment:
+      - USER_UID=$USER_UID
+      - USER_GID=$USER_GID
+    restart: unless-stopped
+    networks:
+      - gitea
+    env_file: .env  
+    volumes:
+      - $DATA_DIR:/data
+      - $TIMEZONE:/etc/timezone:ro
+      - $LOCALTIME:/etc/localtime:ro
+    ports:
+      - $ADMIN_PORT:3000
+      - $SSH_PORT:22
+networks:
+  gitea:
+    external: false
+
+```
+
+### Advanced 
+
+Added support for postgres DB.
+
+```yaml
+
+services:
+  gitea-server:
+    image: gitea/gitea:latest
+    container_name: gitea
+    environment:
+      - USER_UID=$USER_UID
+      - USER_GID=$USER_GID
+      - GITEA_DB_TYPE=$GITEA_DB_TYPE
+      - GITEA_HOST=$GITEA_HOST
+      - GITEA_NAME=$GITEA_NAME
+      - GITEA_USER=$GITEA_USER
+      - GITEA_PASSWD=$GITEA_PASSWD
+    restart: unless-stopped
+    networks:
+      - gitea
+    env_file: .env  
+    volumes:
+      - $DATA_DIR:/data
+      - $TIMEZONE:/etc/timezone:ro
+      - $LOCALTIME:/etc/localtime:ro
+    ports:
+      - $ADMIN_PORT:3000
+      - $SSH_PORT:22
+    depends_on:
+      - postgres-db
+networks:
+  gitea:
+    external: false
+
+  postgres-db:
+    image: postgres:14
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=$POSTGRES_USER
+      - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+      - POSTGRES_DB=$POSTGRES_DB
+    networks:
+      - gitea
+    volumes:
+      - $DB_DATA_DIR:/var/lib/postgresql/data
+
+```
