@@ -1,0 +1,11 @@
+services:
+  watchtower:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    env_file: .env
+    environment:
+      WATCHTOWER_CLEANUP: true
+      WATCHTOWER_SCHEDULE: $WATCHTOWER_SCHEDULE
+      TZ: $WATCHTOWER_TZ
+    restart: unless-stopped  
